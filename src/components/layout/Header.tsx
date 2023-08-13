@@ -7,9 +7,9 @@ type Props = {
 
 const HeaderNavLink: React.FC<Props> = ({ href, children }) => {
   return (
-    <div className="w-40 bg-blue-600 border border-blue-900 rounded-md">
+    <p className="w-40 bg-blue-600 border border-blue-900 rounded-md">
       <Link href={href}>{children}</Link>
-    </div>
+    </p>
   );
 };
 
