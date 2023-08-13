@@ -1,8 +1,7 @@
-export default function Home() {
+export default function Weather() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24"  >
-      <h1>天気予報アプリ</h1>
-      <h2>mochy weather</h2>
+      <h1>天気予報！！！！！</h1>
     </main>
   )
 }

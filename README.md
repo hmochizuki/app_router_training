@@ -1,3 +1,7 @@
+App Router の学習をするためのアプリ。Tailwind css も初めてのご利用。
+なんとなく天気予報アプリにしてみる。
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -38,3 +42,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### Weather API
 - [Swagger](https://app.swaggerhub.com/apis-docs/WeatherAPI.com/WeatherAPI/1.0.2-oas3-oas3.1-oas3.1/)
 - [API Documents](https://www.weatherapi.com/docs/)
+
+### Tailwind css
+- [チートシート](https://tailwindcomponents.com/cheatsheet/)
