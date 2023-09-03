@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
+import { Button } from "../../atoms/Button";
 
 type Props = {
   href: string;
@@ -11,14 +12,10 @@ export const HeaderNavLink: React.FC<Props> = ({ href, children }) => {
   const router = useRouter();
   const pathname = usePathname();
   const onClick = () => router.push(href);
-  const disabled = pathname === href
+  const disabled = pathname === href;
   return (
-    <button
-      onClick={onClick}
-      disabled={disabled}
-      className="w-40 bg-blue-600 border border-blue-900 rounded-md disabled:opacity-50"
-    >
+    <Button onClick={onClick} disabled={disabled}>
       {children}
-    </button>
+    </Button>
   );
 };
