@@ -1,17 +1,5 @@
-import Link from "next/link";
+import { HeaderNavLink } from "./HeaderNavLink";
 
-type Props = {
-  href: string;
-  children: React.ReactNode;
-};
-
-const HeaderNavLink: React.FC<Props> = ({ href, children }) => {
-  return (
-    <p className="w-40 bg-blue-600 border border-blue-900 rounded-md">
-      <Link href={href}>{children}</Link>
-    </p>
-  );
-};
 
 export const Header: React.FC = () => {
   return (
